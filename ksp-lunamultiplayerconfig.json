@@ -1,0 +1,19 @@
+[
+    {
+        "DisplayName": "Mods",
+        "Category": "Mod Settings",
+        "Description": "Please refer to this guide on handling mods: https://github.com/LunaMultiplayer/LunaMultiplayer/wiki/Mod-file (this setting doesn't do anything right now)",
+        "Keywords": "mods",
+        "FieldName": "",
+        "InputType": "Textarea",
+        "IsFlagArgument": false,
+        "ParamFieldName": "",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "Placeholder": "",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
