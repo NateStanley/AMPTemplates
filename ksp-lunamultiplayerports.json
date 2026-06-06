@@ -1,1 +1,7 @@
-[]
+    {
+        "Protocol": "UDP",
+        "Port": 8800,
+        "Ref": "GamePort",
+        "Name": "Game Port",
+        "Description": "Port for game traffic"
+    }
