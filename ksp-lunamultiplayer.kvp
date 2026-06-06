@@ -81,4 +81,4 @@ App.ExecutableLinux=serverfiles/LMPServer/Server
 App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[ksp-lunamultiplayerports.json]
 App.UpdateSources=@IncludeJson[ksp-lunamultiplayerupdates.json]
-App.EnvironmentVariables={DOTNET_ROOT":"{{$FullBaseDir}}dotnet", "LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
+App.EnvironmentVariables={"DOTNET_ROOT":"{{$FullBaseDir}}dotnet", "LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
