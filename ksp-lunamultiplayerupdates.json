@@ -22,6 +22,12 @@
         "OneShot": false
     },
     {
+        "UpdateStageName": "Create Dotnet Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullBaseDir}}Dotnet"
+    },
+    {
         "UpdateStageName": ".NET Runtime Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSourceArch": "x86_64",
