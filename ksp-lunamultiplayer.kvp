@@ -1,7 +1,7 @@
 Meta.DisplayName=KSP: LunaMultiplayer
 Meta.Description=LunaMultiplayer mod for Kerbal Space Program
 Meta.Arch=x86_64
-Meta.Author=NateStanley - Made with AMP Config Generator
+Meta.Author=NateStanley
 Meta.URL=https://github.com/LunaMultiplayer/LunaMultiplayer
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
