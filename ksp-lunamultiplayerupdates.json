@@ -61,6 +61,7 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "SkipOnFailure": true,
-        "OneShot": true
+        "OneShot": true,
+        "WaitForStartupComplete": true
     }
 ]
