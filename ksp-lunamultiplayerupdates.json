@@ -25,8 +25,8 @@
         "UpdateStageName": "Extracting archive",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "./LunaMultiplayer-Server-Release.zip",
-        "UpdateSourceTarget": "./",
+        "UpdateSourceArgs": "LunaMultiplayer-Server-Release.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
@@ -36,11 +36,20 @@
         "UpdateStageName": "Extracting archive",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "./LunaMultiplayer-Server-linux-x64-Release.zip",
-        "UpdateSourceTarget": "./LunaMultiplayer-Server-linux-x64-Release.zip",
+        "UpdateSourceArgs": "LunaMultiplayer-Server-linux-x64-Release.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "First time startup",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "StartApplication",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
     }
 ]

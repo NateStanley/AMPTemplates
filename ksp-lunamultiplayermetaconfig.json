@@ -55,6 +55,11 @@
         "AutoMap": true
     },
     {
+        "ConfigFile": "Config/LMPModControl.xml",
+        "ConfigType": "xml",
+        "AutoMap": true
+    },
+    {
         "ConfigFile": "Config/WebsiteSettings.xml",
         "ConfigType": "xml",
         "AutoMap": true
