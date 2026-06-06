@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Mods",
-        "Category": "Mod Settings",
+        "Category": "LunaMP Settings",
         "Description": "Please refer to this guide on handling mods: https://github.com/LunaMultiplayer/LunaMultiplayer/wiki/Mod-file (this setting doesn't do anything right now)",
         "Keywords": "mods",
         "FieldName": "",
@@ -18,7 +18,7 @@
     },
     {
         "DisplayName": "Dotnet Version",
-        "Category": "Updates",
+        "Category": "LunaMP Settings",
         "Subcategory": "Server Updates:build:-1",
         "Description": "Sets the [.NET Runtime 10.0 version](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) to install. Empty = latest. Update the server after changing this setting",
         "Keywords": "dotnet,version",
